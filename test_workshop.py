@@ -1,10 +1,9 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.common.by import By
 from pathlib import Path
-from selenium.webdriver.common.keys import Keys
-from datetime import date
 from constants import *
 
 class Test_Workshop:
